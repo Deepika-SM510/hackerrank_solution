@@ -42,7 +42,7 @@ f=(c*9/5)+32
 c=(f-32)*5/9
 print(f"Converted Celsius:{c}\nconverted fehrenheit:{f}")#Convert Celsius to Fahrenheit and fahrenheit to Celsius
 
-#Total marks and percentage
+#9Total marks and percentage
 a=int(input("Enter a marks of first subject: "))
 b=int(input("Enter a marks of second subject: "))
 c=int(input("Enter a marks of third subject: "))
@@ -52,12 +52,12 @@ total_marks=a+b+c+d+e
 percentage=(total_marks/500)*100
 print(f"TOTAL MARKS OF FIVE SUBJECTS:{total_marks}\n PERCENTAGE:{percentage}%")#Total marks and percentage
 
-#Last digit of a number
+#10Last digit of a number
 a=int(input("Enter a number: "))
 last_digit=a%10
 print(f"LAST DIGIT OF A NUMBER:{last_digit}")#Last digit of a number
 
-#. Sum of digits (2-digit number)
+#11Sum of digits (2-digit number)
 a=int(input("Enter a two digit number: "))
 sum_of_digit=(a//10)+(a%10)
 print(f"SUM OF TWO DIGITS:{sum_of_digit}")#Sum of digits 
@@ -68,7 +68,7 @@ rev=(a%10)
 rev1=(a//10)
 print(f"reverse of two digits:{rev}{rev1}")
 
-#Convert days into years, weeks, days
+#13Convert days into years, weeks, days
 a=int(input("Enter a number of days: "))
 b=int(a/365)
 c=a-(365)
@@ -77,7 +77,7 @@ e=c-(7)
 f=e/24
 print(f"Convert days into years, weeks, days:\n{b}years {d}weeks {f}days")#Convert days into years, weeks, days
 
-#Profit or Loss
+#14Profit or Loss
 a=int(input("Enter a cost price: "))
 b=int(input("Enter a selling price: "))     
 if a>b:
@@ -89,15 +89,16 @@ elif a<b:
 else:
     print("NO PROFIT NO LOSS")#Profit or Loss
 
-#Power without using **
+#15Power without using **
 a=int(input("Enter a base number: "))
 b=int(input("Enter a exponent number: "))    
 power=1
 for i in range(b):
-    power=power*a           
+    power=power*a  
+             
 print(f"POWER OF A NUMBER:{power}")#Power without using ** OPERATOR
 
-#Break amount into notes
+#16Break amount into notes
 a=int(input("Enter a amount: "))
 b=a//2000
 c=a%2000
